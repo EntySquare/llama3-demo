@@ -1,6 +1,7 @@
 <p align="center">
-  <img src="https://github.com/EntySquarhttps://github.com/EntySquare/llama3-demo/blob/main/assets/Llama3_Repo.png" width="400"/>
+  <img src="https://raw.githubusercontent.com/EntySquare/llama3-demo/main/assets/Llama3_Repo.png" width="400"/>
 </p>
+
 
 <p align="center">
         🤗 <a href="https://huggingface.co/meta-Llama"> Models on Hugging Face</a>&nbsp | <a href="https://ai.meta.com/blog/"> Blog</a>&nbsp |  <a href="https://llama.meta.com/">Website</a>&nbsp | <a href="https://llama.meta.com/get-started/">Get Started</a>&nbsp
