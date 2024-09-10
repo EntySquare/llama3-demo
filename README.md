@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/meta-llama/llama3/blob/main/Llama3_Repo.jpeg" width="400"/>
+  <img src="https://github.com/EntySquare/llama3-demo/assets/Llama3_Repo.png" width="400"/>
 </p>
 
 <p align="center">
@@ -117,7 +117,7 @@ These models are not finetuned for chat or Q&A. They should be prompted so that 
 
 See `example_text_completion.py` for some examples. To illustrate, see the command below to run it with the llama-3-8b model (`nproc_per_node` needs to be set to the `MP` value):
 
-```
+```bash
 torchrun --nproc_per_node 1 example_text_completion.py \
     --ckpt_dir Meta-Llama-3-8B/ \
     --tokenizer_path Meta-Llama-3-8B/tokenizer.model \
@@ -133,13 +133,25 @@ You can also deploy additional classifiers to filter out inputs and outputs that
 
 Examples using llama-3-8b-chat:
 
-```
+```bash
 torchrun --nproc_per_node 1 example_chat_completion.py \
     --ckpt_dir Meta-Llama-3-8B-Instruct/ \
     --tokenizer_path Meta-Llama-3-8B-Instruct/tokenizer.model \
     --max_seq_len 512 --max_batch_size 6
 ```
 
+### Terminal Models
+
+You can type questions and model chat in the console
+
+Examples using terminal input llama-3-8b-chat:
+
+```bash
+torchrun --nproc_per_node 1 ./chat/terminal.py \
+    --ckpt_dir Meta-Llama-3-8B-Instruct/ \
+    --tokenizer_path Meta-Llama-3-8B-Instruct/tokenizer.model \
+    --max_seq_len 512 --max_batch_size 6
+```
 Llama 3 is a new technology that carries potential risks with use. Testing conducted to date has not — and could not — cover all scenarios.
 To help developers address these risks, we have created the [Responsible Use Guide](https://ai.meta.com/static-resource/responsible-use-guide/).
 
