@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/EntySquare/llama3-demo/assets/Llama3_Repo.png" width="400"/>
+  <img src="https://github.com/EntySquarhttps://github.com/EntySquare/llama3-demo/blob/main/assets/Llama3_Repo.png" width="400"/>
 </p>
 
 <p align="center">
