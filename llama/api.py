@@ -36,7 +36,7 @@ def main(
     global generator
     generator = get_generator(ckpt_dir, tokenizer_path, max_seq_len, max_batch_size)
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8080)
 
 
 @app.post("/generate/")
